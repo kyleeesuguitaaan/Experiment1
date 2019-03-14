@@ -1,0 +1,49 @@
+// This program shows how to calculate the total ticket sales of the footbal stadium.
+// It also shows the different 4 ticket types:
+// Box, Sideline, Premium, General Admission.
+
+#include <iostream>
+#include <conio.h>
+
+using namespace std;
+
+int main ()
+
+{
+	double total;
+	int Box, Sideline, Premium, General_Admission, tquantityga, tquantityb, tquantitys, tquantityp;
+	General_Admission=50;
+	Box=100;
+	Sideline=200;
+	Premium=500;
+
+	//Ticket prices 
+		cout <<"Ticket price for General Admission: $50"<<endl;
+		cout <<"Ticket price for Box: $100"<<endl;
+		cout <<"Ticket price for Sideline: $200"<<endl;
+		cout <<"Tiecket price for Premium: $500"<<endl;
+
+	//Ticket quantity
+		cout <<"Enter number of tickets sold for the General_Admission in the football game" <<endl;
+			cin >> tquantityga; 
+		cout <<"Enter number of tickets sold for the Box in the football game" <<endl;
+			cin >> tquantityb;
+		cout <<"Enter number of tickets sold for the Sideline in the football game" <<endl;
+			cin >> tquantitys;
+		cout <<"Enter number of tickets sold for the Premium in the football game" <<endl;
+			cin >> tquantityp;
+		
+	//Ticket total
+		total=)General_Admission*tquantityga)+(Sideline*tquantitys)+(Box*tquantityb)+(Premium*tquantityp);
+		cout <<"Total amout of sales for General_Admission: "<< General_Admission*tquantityga <<endl;
+		cout <<"Total amout of sales for Box: "<<Box*tquantityb <<endl;
+		cout <<"Total amout of sales for Sideline: "<<Sideline*tquantitys <<endl;
+		cout <<"Total amout of sales for Premium: "<<Premium*tquantityp <<endl;
+		cout <<"Total number of sales for the football game: "<< total <<endl;
+
+
+		_getch();
+		return 0;
+}
+
+
